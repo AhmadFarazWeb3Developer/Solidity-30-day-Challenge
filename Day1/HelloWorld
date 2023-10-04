@@ -2,7 +2,7 @@
 pragma solidity 0.8.18;
 
 contract HelloWorld {
-    // 1. First way to print "Hello World" using the default state variable "helloWorld_1".
+    // 1. First way to print "Hello World" using the default public function with state variable helloWorld_1.
     string public helloWorld_1 = "Hello World 1";
 
     // 2. Second way, using a constructor and a user-defined function with a visibility of view.
